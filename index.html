@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beispiel Bootstrap Seite</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Meine Webseite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Galerie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Willkommen auf meiner Webseite</h1>
+            <p class="lead">Erstellt mit Bootstrap und Fake-Bildern</p>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section id="features" class="py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/100" class="mb-3" alt="Feature 1">
+                    <h3>Feature 1</h3>
+                    <p>Beschreibung für Feature 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/100" class="mb-3" alt="Feature 2">
+                    <h3>Feature 2</h3>
+                    <p>Beschreibung für Feature 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/100" class="mb-3" alt="Feature 3">
+                    <h3>Feature 3</h3>
+                    <p>Beschreibung für Feature 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Galerie</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Bild 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Bild 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Bild 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Kontakt</h2>
+            <p>Erreichen Sie uns über E-Mail: <a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Meine Webseite. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
